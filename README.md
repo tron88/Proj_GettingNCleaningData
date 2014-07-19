@@ -7,9 +7,10 @@ See details here: https://class.coursera.org/getdata-005/human_grading/view/cour
 
 The run_analysis.R script works as follows:
 
-# Use data.table by performing a library load:  library(data.table)
+# Use data.table by performing a library load:  
+library(data.table)
 
-# Change to the right working directory such that when one does
+# Change to the right working directory if necessary such that when one does
 #> getwd() # this should show the following directory
 # [1] "C:/Path/to/the/data/.../UCI HAR Dataset"
 #setwd('data/UCI HAR Dataset/')  # Or change to the appropriate working directory ... 
